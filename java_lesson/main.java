@@ -14,3 +14,11 @@ class Main{  //クラス部分
 
 System.out.println("HOll World");
 //Javaは文の終わりにはセミコロン（；）が必須。これを忘れるとコードが動かなくなる
+
+//数値　【数値は””で囲まない様に注意】・【記号と数字の間にはスペースは無くても良いがコードが見やすくするよう心がける】
+System.out.println(3);      //コンソール結果　３
+System.out.println(5 + 2);  //コンソール結果　７　足し算
+System.out.println(8 - 5);  //コンソール結果　３　引き算
+System.out.println(3 * 2);  //コンソール結果　６　掛け算
+System.out.println(6 / 2);  //コンソール結果　３　割り算
+System.out.println(8 % 5);  //コンソール結果　３　割り算の余を出力　（８割る５は、１余り３）
