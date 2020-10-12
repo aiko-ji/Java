@@ -35,3 +35,10 @@ System.out.println(5 + 3);              //コンソール結果　８
 //変数とはデータを入れておく箱の様なもの。その箱（変数）には変数名（名前）がついている
 //int型の変数定義　int number;     int(データ型)　number;(変数名)
 //Stringの変数定義　String name;   String(データ型)　mane(変数名)
+
+//値の代入　【今回"３"”Sato”を変数名に値を代入する】
+int number;
+number = 3;  //(=に代入する)
+String name；
+name = "Sato"
+
