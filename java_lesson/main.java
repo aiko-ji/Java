@@ -22,3 +22,8 @@ System.out.println(8 - 5);  //コンソール結果　３　引き算
 System.out.println(3 * 2);  //コンソール結果　６　掛け算
 System.out.println(6 / 2);  //コンソール結果　３　割り算
 System.out.println(8 % 5);  //コンソール結果　３　割り算の余を出力　（８割る５は、１余り３）
+
+//文字列の連結　【数値と文字列の違いに注意】
+System.out.println("Ninja" + "Wanko");  //コンソール結果　NinjaWanko
+System.out.println("5" + "3");          //コンソール結果　53
+System.out.println(5 + 3);              //コンソール結果　８
