@@ -27,3 +27,11 @@ System.out.println(8 % 5);  //コンソール結果　３　割り算の余を�
 System.out.println("Ninja" + "Wanko");  //コンソール結果　NinjaWanko
 System.out.println("5" + "3");          //コンソール結果　53
 System.out.println(5 + 3);              //コンソール結果　８
+
+//変数の定義　データ型
+"Hello World"//(文字列)・・・String型（文字列の並び）
+３//(整数)・・・・・・・・・・・int型s整数の意味（英語読み＝integer）
+
+//変数とはデータを入れておく箱の様なもの。その箱（変数）には変数名（名前）がついている
+//int型の変数定義　int number;     int(データ型)　number;(変数名)
+//Stringの変数定義　String name;   String(データ型)　mane(変数名)
