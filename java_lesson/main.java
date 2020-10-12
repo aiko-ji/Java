@@ -42,3 +42,10 @@ number = 3;  //(=に代入する)
 String name；
 name = "Sato"
 
+//変数から値を取り出す
+int number;
+number = 10;
+System.out.println(number);      //コンソール結果　10
+String name;
+name = "Sato";
+System.out.println(name);        //コンソール結果　Sato
