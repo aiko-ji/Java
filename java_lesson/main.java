@@ -49,3 +49,10 @@ System.out.println(number);      //コンソール結果　10
 String name;
 name = "Sato";
 System.out.println(name);        //コンソール結果　Sato
+
+//変数の初期化
+
+int number = 3;   //int number(変数の定義)・=(代入)
+String text = "Hello World";
+
+//*変数雨の定義と同時に値を代入（＝変数を初期化）
