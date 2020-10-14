@@ -56,3 +56,10 @@ int number = 3;   //int number(変数の定義)・=(代入)
 String text = "Hello World";
 
 //*変数雨の定義と同時に値を代入（＝変数を初期化）
+
+
+//int型変数の計算　【数値の入った変数なら、数値と同様計算ができる、数値と変数の計算、変数同士の計算も可能】
+int number1 = 10;
+System.out.println(number1 + 3);  //コンソール結果13
+int number2 = 5;
+System.out.println(number1 + number2);  //コンソール結果15
