@@ -63,3 +63,11 @@ int number1 = 10;
 System.out.println(number1 + 3);  //コンソール結果13
 int number2 = 5;
 System.out.println(number1 + number2);  //コンソール結果15
+
+//String型変数の連結　【文字列に入った変数であれば、文字列と同様、文字列の連結を行うことができる】
+String greeting = "こんにちは";
+System.out.println(greeting + "佐藤さん");　　　//コンソール結果　こんにちは佐藤さん
+String name ="鈴木さん";
+System.out.println(greeting + name);  　　　　 //コンソール結果　こんにちは鈴木さん
+//name（変数名には""をつけない）
+
