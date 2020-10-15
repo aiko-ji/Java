@@ -70,4 +70,12 @@ System.out.println(greeting + "佐藤さん");　　　//コンソール結果�
 String name ="鈴木さん";
 System.out.println(greeting + name);  　　　　 //コンソール結果　こんにちは鈴木さん
 //name（変数名には""をつけない）
+//変数の更新【変数は中に入っている値を変更することができる】
+
+//変数の更新【代入されている変数の値を後に別の値に上書きをすることが出来る】
+String name = "Sato";//(変数の定義)　　　コンソール結果　Sato
+System.out.println(name);
+name ="Suzuki";//(変数の中身の上書き)　　　コンソール結果　Suzuki
+System.out.println(name);
+
 
