@@ -56,3 +56,32 @@ int number = 3;   //int number(変数の定義)・=(代入)
 String text = "Hello World";
 
 //*変数雨の定義と同時に値を代入（＝変数を初期化）
+
+
+//int型変数の計算　【数値の入った変数なら、数値と同様計算ができる、数値と変数の計算、変数同士の計算も可能】
+int number1 = 10;
+System.out.println(number1 + 3);  //コンソール結果13
+int number2 = 5;
+System.out.println(number1 + number2);  //コンソール結果15
+
+//String型変数の連結　【文字列に入った変数であれば、文字列と同様、文字列の連結を行うことができる】
+String greeting = "こんにちは";
+System.out.println(greeting + "佐藤さん");　　　//コンソール結果　こんにちは佐藤さん
+String name ="鈴木さん";
+System.out.println(greeting + name);  　　　　 //コンソール結果　こんにちは鈴木さん
+//name（変数名には""をつけない）
+//変数の更新【変数は中に入っている値を変更することができる】
+
+//変数の更新【代入されている変数の値を後に別の値に上書きをすることが出来る】
+String name = "Sato";//(変数の定義)　　　コンソール結果　Sato
+System.out.println(name);
+name ="Suzuki";//(変数の中身の上書き)　　　コンソール結果　Suzuki
+System.out.println(name);
+//変更時の注意点
+//間違った値の更新方法
+int number = 3;
+int number = 5;  //新しい変数を定義しようとしているが、「同じ名前の変数は定義出来ない」為エラーになる
+//正しい値の更新
+int number = 3;
+number = 5;  //値を更新する時はデータ型をつけない！
+
