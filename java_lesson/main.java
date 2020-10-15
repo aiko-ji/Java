@@ -77,5 +77,11 @@ String name = "Sato";//(変数の定義)　　　コンソール結果　Sato
 System.out.println(name);
 name ="Suzuki";//(変数の中身の上書き)　　　コンソール結果　Suzuki
 System.out.println(name);
-
+//変更時の注意点
+//間違った値の更新方法
+int number = 3;
+int number = 5;  //新しい変数を定義しようとしているが、「同じ名前の変数は定義出来ない」為エラーになる
+//正しい値の更新
+int number = 3;
+number = 5;  //値を更新する時はデータ型をつけない！
 
