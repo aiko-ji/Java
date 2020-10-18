@@ -107,3 +107,17 @@ x = x - 1;   x -= 1;   x--;//(略称)
 //  1,何のデータか分かりやすい為
 //  2,同じデータを繰り返し使える
 //  3,変更に対応しやすい
+
+//変数の役割
+//変数を使わない場合
+System.out.println("Aさん、ProgateでJavaをマスターしましょう");
+System.out.println("Bさん、ProgateでJavaをマスターしましょう");
+System.out.println("Cさん、ProgateでJavaをマスターしましょう");
+//「Java」の部分を「プリグラミング」に書き換えるなら３箇所全て変更しなければならない
+
+//変数を使った場合
+String text = "ProgateでJavaをマスターしましょう"；
+System.out.println("Aさん、" + text);
+System.out.println("Bさん、" + text);
+System.out.println("Cさん、" + text);
+//「Java」の部分を「プログラミング」に書き換えるなら、代入する文字列を１箇所変更するだけで良い
