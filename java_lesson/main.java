@@ -163,3 +163,6 @@ System.out.println("佐藤さんは"+23+"際です");  //コンソール結果�
 System.out.println(5 / 2);//(int型同士の計算)　　　　　　コンソール結果　２(int型)
 System.out.println(5.0 / 2.0);//(double型同士の計算)　　コンソール結果　2.5（double型）
 
+//計算時の自動型変換【int型とdouble型で計算をするとdouble型になる。Javaが自動変換してくれる】
+System.out.println(5.0 / 2); 　　//コンソール結果　2.5
+//(5.0 / 2)→(5.0 / 2.0)double型に変換される
