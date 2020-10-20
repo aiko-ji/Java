@@ -136,3 +136,18 @@ namae      //△ローマ字
 //変数名【変数名を決める時は何のデータが入っているのか分かりやすく名前をつける】
 String number ="Sato"    //✖️中に入っている値を意味しない変数名
 String lastName = "Sato" //○中にどんな値が入っているかを把握しやすい変数名
+
+//double型（少数）【これまで数値は、int型（整数）しか使ってきませんでしたが、小数を表すデータ型も存在します。そのひとつがdouble型です】
+5//(整数)      int型
+3.14//（少数）   double型
+
+//double型の変数【３はint型・3.14はdouble型】
+double number = 5.28;
+System.out.println(number);   //コンソール結果  5.28
+
+//少数同士の計算【double型も数値なので、計算をする事もある】
+double number1 = 8.5;
+double number2 = 3.4;
+System.out.println(number1 + number2);   //コンソール結果　11.9
+System.out.println(number1 - number2);   //コンソール結果　5.1
+
