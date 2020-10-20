@@ -145,3 +145,9 @@ String lastName = "Sato" //○中にどんな値が入っているかを把握�
 double number = 5.28;
 System.out.println(number);   //コンソール結果  5.28
 
+//少数同士の計算【double型も数値なので、計算をする事もある】
+double number1 = 8.5;
+double number2 = 3.4;
+System.out.println(number1 + number2);   //コンソール結果　11.9
+System.out.println(number1 - number2);   //コンソール結果　5.1
+
