@@ -141,3 +141,7 @@ String lastName = "Sato" //○中にどんな値が入っているかを把握�
 5//(整数)      int型
 3.14//（少数）   double型
 
+//double型の変数【３はint型・3.14はdouble型】
+double number = 5.28;
+System.out.println(number);   //コンソール結果  5.28
+
