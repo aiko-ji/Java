@@ -158,3 +158,8 @@ System.out.println(number1 - number2);   //コンソール結果　5.1
 
 System.out.println("佐藤さんは"+23+"際です");  //コンソール結果　佐藤さんは２３際です
 //23（String型に変換される）　「”佐藤さんは”＋”２３”＋”際です”」と変換される
+
+//数値の計算の注意点
+System.out.println(5 / 2);//(int型同士の計算)　　　　　　コンソール結果　２(int型)
+System.out.println(5.0 / 2.0);//(double型同士の計算)　　コンソール結果　2.5（double型）
+
