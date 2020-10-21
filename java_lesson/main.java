@@ -172,3 +172,11 @@ int number1 = 13;
 int number2 = 4;
 System.out.println(number1 / number2);    //コンソール結果　３　＊3.25とはならない
 //（number1 / number2）int型同士の割り算
+ 
+//キャスト【強制的に型変換を行う事をキャストというint型同士の値から、最終的にdouble型の計算結果の仕方】
+int number1 = 13;
+int number2 = 4;
+System.out.println((double)number1 / number2);   //こんソール結果　3.25(double型の計算結果)
+//(double)をnumber1へ number1の値がdouble型に変換される　13.0/4
+//       ↓
+//number2の値がdouble型に変換される 13.0/4.0
