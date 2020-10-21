@@ -151,3 +151,32 @@ double number2 = 3.4;
 System.out.println(number1 + number2);   //コンソール結果　11.9
 System.out.println(number1 - number2);   //コンソール結果　5.1
 
+//型変換について
+//「+」などの操作は同じデータ型同士でないとできません。よって型の違うものを演算するときは、型を変換し同じ型にしてあげます。
+//Javaではこの型変換の方法として、自動の変換と手動の変換があります。
+//まずは自動型変換を学びましょう。下図のようにString型とint型を足すと、int型が自動でString型に変換され、文字列の結合が行われます。
+
+System.out.println("佐藤さんは"+23+"際です");  //コンソール結果　佐藤さんは２３際です
+//23（String型に変換される）　「”佐藤さんは”＋”２３”＋”際です”」と変換される
+
+//数値の計算の注意点
+System.out.println(5 / 2);//(int型同士の計算)　　　　　　コンソール結果　２(int型)
+System.out.println(5.0 / 2.0);//(double型同士の計算)　　コンソール結果　2.5（double型）
+
+//計算時の自動型変換【int型とdouble型で計算をするとdouble型になる。Javaが自動変換してくれる】
+System.out.println(5.0 / 2); 　　//コンソール結果　2.5
+//(5.0 / 2)→(5.0 / 2.0)double型に変換される
+
+//int型同士の計算
+int number1 = 13;
+int number2 = 4;
+System.out.println(number1 / number2);    //コンソール結果　３　＊3.25とはならない
+//（number1 / number2）int型同士の割り算
+ 
+//キャスト【強制的に型変換を行う事をキャストというint型同士の値から、最終的にdouble型の計算結果の仕方】
+int number1 = 13;
+int number2 = 4;
+System.out.println((double)number1 / number2);   //こんソール結果　3.25(double型の計算結果)
+//(double)をnumber1へ number1の値がdouble型に変換される　13.0/4
+//       ↓
+//number2の値がdouble型に変換される 13.0/4.0
