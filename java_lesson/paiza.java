@@ -22,3 +22,25 @@ public class Main {
         System.out.println(a); //変数aの値を表示
     }
 }
+
+public class Main {
+    public static void main(String[] args) {
+        int a = 10;  //変数aを宣言し、10を入れる
+        int b = 20;  //変数bを宣言し、20を入れる
+        System.out.println(a + b); //aとbを足した答えを表示
+        int a = 10;  //10を入れた変数aを用意する
+        a = a + 1;   //変数aに1を足す
+        System.out.println(a);  //結果を表示
+        a *= 2;  //変数aに2をかける
+        System.out.println(a)  //結果を表示
+    }
+}
+
+public class Main {
+    public static void main(String[] args) {
+        int a = 10;  //変数aを宣言し、10を入れる
+        a++;  //インクリメント演算子で＋1をする
+        System.out.println(a);  //結果を表示
+
+    }
+}
