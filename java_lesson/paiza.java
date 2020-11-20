@@ -52,3 +52,13 @@ public class Main {
 
     }
 }
+
+public class Main {
+    public static void main(String[] args) {
+        String word1 = "こんにちは";   //文字列を入れた変数word1
+        String word2 = "私はJavaを勉強中です。";  //文字列を入れた変数word2
+        String word3 = word1 + word2;
+        System.out.println(word3);  //結果を表示
+
+    }
+}
