@@ -44,3 +44,11 @@ public class Main {
 
     }
 }
+
+public class Main {
+    public static void main(String[] args) {
+        String name = "いろは";    //文字列を入れた変数name
+        System.out.println(name);  //結果を表示
+
+    }
+}
