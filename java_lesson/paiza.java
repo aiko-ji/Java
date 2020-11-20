@@ -35,3 +35,12 @@ public class Main {
         System.out.println(a)  //結果を表示
     }
 }
+
+public class Main {
+    public static void main(String[] args) {
+        int a = 10;  //変数aを宣言し、10を入れる
+        a++;  //インクリメント演算子で＋1をする
+        System.out.println(a);  //結果を表示
+
+    }
+}
