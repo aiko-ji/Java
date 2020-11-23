@@ -44,3 +44,46 @@ public class Main {
 
     }
 }
+
+public class Main {
+    public static void main(String[] args) {
+        String name = "いろは";    //文字列を入れた変数name
+        System.out.println(name);  //結果を表示
+
+    }
+}
+
+public class Main {
+    public static void main(String[] args) {
+        String word1 = "こんにちは";   //文字列を入れた変数word1
+        String word2 = "私はJavaを勉強中です。";  //文字列を入れた変数word2
+        String word3 = word1 + word2;
+        System.out.println(word3.length());  //結果を表示
+
+    }
+}
+//文字列の一部を取り出す
+public class Main {
+    public static void main(String[] args) {
+        String word = "こんにちは。私はJavaです。"; //文字列を入れた変数word
+        System.out.println(word.substring(6,12));  //変数wordの6〜11番目を表示
+        System.out.println(word.substring(12));  //変数wordの12〜末尾を表示
+    }
+}
+//文字列の一部を置き換える
+public class Main {
+    public static void main(String[] args) {
+        String word = "こんにちは。私はJavaです。"; //文字列を入れた変数word
+        word = word.replace("Java","いろは");  //変数wordの文字を書き換える
+        System.out.println(word);  //書き換えた文字列を表示
+    }
+}
+//文字列を数値をつなぐ「 文字列 + 数値 」 「 数値 + 文字列 」
+public class Main {
+    public static void main(String[] args) {
+        int a = 10;   //10を入れた変数a
+        int b = 20;   //20を入れた変数b
+        String question = a + "X" + b + "=?";  //つなげて変数questionに入れる
+        System.out.println(question);  //変数questionの文字列を表示
+    }
+}
