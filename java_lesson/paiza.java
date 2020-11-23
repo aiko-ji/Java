@@ -62,3 +62,11 @@ public class Main {
 
     }
 }
+//文字列の一部を取り出す
+public class Main {
+    public static void main(String[] args) {
+        String word = "こんにちは。私はJavaです。"; //文字列を入れた変数word
+        System.out.println(word.substring(6,12));  //変数wordの6〜11番目を表示
+        System.out.println(word.substring(12));  //変数wordの12〜末尾を表示
+    }
+}
