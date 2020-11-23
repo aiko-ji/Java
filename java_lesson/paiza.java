@@ -70,3 +70,11 @@ public class Main {
         System.out.println(word.substring(12));  //変数wordの12〜末尾を表示
     }
 }
+//文字列の一部を置き換える
+public class Main {
+    public static void main(String[] args) {
+        String word = "こんにちは。私はJavaです。"; //文字列を入れた変数word
+        word = word.replace("Java","いろは");  //変数wordの文字を書き換える
+        System.out.println(word);  //書き換えた文字列を表示
+    }
+}
