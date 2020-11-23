@@ -87,3 +87,11 @@ public class Main {
         System.out.println(question);  //変数questionの文字列を表示
     }
 }
+//ランダムに値を出す方法
+import java.util.Random;
+public class Main {
+    public static void main(String[] args) {
+        Random rnd = new Random();  //ランダムな数を出す部品
+        System.out.println(rnd.nextInt(10)); //0〜9のランダムな値を表示
+    }
+}
