@@ -78,3 +78,12 @@ public class Main {
         System.out.println(word);  //書き換えた文字列を表示
     }
 }
+//文字列を数値をつなぐ「 文字列 + 数値 」 「 数値 + 文字列 」
+public class Main {
+    public static void main(String[] args) {
+        int a = 10;   //10を入れた変数a
+        int b = 20;   //20を入れた変数b
+        String question = a + "X" + b + "=?";  //つなげて変数questionに入れる
+        System.out.println(question);  //変数questionの文字列を表示
+    }
+}
