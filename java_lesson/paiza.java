@@ -95,3 +95,14 @@ public class Main {
         System.out.println(rnd.nextInt(10)); //0〜9のランダムな値を表示
     }
 }
+//毎回違う計算問題を出題するプログラム
+import java.util.Random;
+public class Main {
+    public static void main(String[] args) {
+        Random rnd = new Random();  //ランダムな数を出す部品 
+        int a = rnd.nextInt(100);  //0~99のランダムな数値を出す
+        int b = rnd.nextInt(100);  //0~99のランダムな数値を出す
+        String question = a + "x" + b + "=?";  //つなげて変数questionに入れる
+        System.out.println(question); //変数questionの文字列を表示
+    }
+}
