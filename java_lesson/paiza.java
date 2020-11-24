@@ -124,3 +124,14 @@ public class Main {
         System.out.println(intA);  //変数intAの値を表示
     }
 }
+//数値と文字列との変換
+public class Main {
+    public static void main(String[] args){
+        int intA = 122345;  //int型の変数intAに値を入れる
+        double doubleA = 1234.5678;  //double型の変数doubleAに値を入れる
+        String stringA = Integer.toString(intA);  //変数intAの値を文字列に変換
+        String stringB = Double.toString(doubleA); //変換doubleAの値を文字列に変換
+        System.out.println(stringA);  //変数stringAの文字列を表示
+        System.out.println(stringB);  //変数stringBの文字列を表示
+    }
+}
