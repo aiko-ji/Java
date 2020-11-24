@@ -106,3 +106,12 @@ public class Main {
         System.out.println(question); //変数questionの文字列を表示
     }
 }
+//データ型を変換【拡大変換】
+public class Main {
+    public static void main(String[] args){
+        double doubleA = 123.5678;   //double型の変数doubleAに値を入れる
+        int intA = 12345;  //int型の変数intAに値を入れる
+        doubleA = intA;   //intAの値をdoubleAに入れる
+        System.out.println(doubleA);  //変数douleAの値を表示
+    }
+}
