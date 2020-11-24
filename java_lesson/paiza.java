@@ -135,3 +135,14 @@ public class Main {
         System.out.println(stringB);  //変数stringBの文字列を表示
     }
 }
+//文字列を数値に変換する
+public class Main {
+    public static void main(String[] args){
+        String stringA = "12345";  //String型の変数stringAに文字列を入れる
+        String stringB = "1234.5678";  //String型の変数stringBに文字列を入れる
+        int intA = Integer.parseInt(stringA);  //文字列をint型の値に変換
+        double doubleA = Double.parseDouble(stringB);  //文字列をdouble型の値に変換
+        System.out.println(intA);   //int型の値を表示
+        System.out.println(doubleA);  //double型の値を表示
+    }
+}
