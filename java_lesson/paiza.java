@@ -87,3 +87,73 @@ public class Main {
         System.out.println(question);  //変数questionの文字列を表示
     }
 }
+//ランダムに値を出す方法
+import java.util.Random;
+public class Main {
+    public static void main(String[] args) {
+        Random rnd = new Random();  //ランダムな数を出す部品
+        System.out.println(rnd.nextInt(10)); //0〜9のランダムな値を表示
+    }
+}
+//毎回違う計算問題を出題するプログラム
+import java.util.Random;
+public class Main {
+    public static void main(String[] args) {
+        Random rnd = new Random();  //ランダムな数を出す部品 
+        int a = rnd.nextInt(100);  //0~99のランダムな数値を出す
+        int b = rnd.nextInt(100);  //0~99のランダムな数値を出す
+        String question = a + "x" + b + "=?";  //つなげて変数questionに入れる
+        System.out.println(question); //変数questionの文字列を表示
+    }
+}
+//データ型を変換【拡大変換】
+public class Main {
+    public static void main(String[] args){
+        double doubleA = 123.5678;   //double型の変数doubleAに値を入れる
+        int intA = 12345;  //int型の変数intAに値を入れる
+        doubleA = intA;   //intAの値をdoubleAに入れる
+        System.out.println(doubleA);  //変数douleAの値を表示
+    }
+}
+//キャストの変換
+public class Main {
+    public static void main(String[] args){
+        double doubleA = 1234.5678;   //double型の変数doubleAに値を入れる
+        int intA = 12345;  //int型の変数intAに値を入れる
+        intA = (int)doubleA;   //doubleAの値をキャスト変換してintAに入れる
+        System.out.println(intA);  //変数intAの値を表示
+    }
+}
+//数値と文字列との変換
+public class Main {
+    public static void main(String[] args){
+        int intA = 122345;  //int型の変数intAに値を入れる
+        double doubleA = 1234.5678;  //double型の変数doubleAに値を入れる
+        String stringA = Integer.toString(intA);  //変数intAの値を文字列に変換
+        String stringB = Double.toString(doubleA); //変換doubleAの値を文字列に変換
+        System.out.println(stringA);  //変数stringAの文字列を表示
+        System.out.println(stringB);  //変数stringBの文字列を表示
+    }
+}
+//文字列を数値に変換する
+public class Main {
+    public static void main(String[] args){
+        String stringA = "12345";  //String型の変数stringAに文字列を入れる
+        String stringB = "1234.5678";  //String型の変数stringBに文字列を入れる
+        int intA = Integer.parseInt(stringA);  //文字列をint型の値に変換
+        double doubleA = Double.parseDouble(stringB);  //文字列をdouble型の値に変換
+        System.out.println(intA);   //int型の値を表示
+        System.out.println(doubleA);  //double型の値を表示
+    }
+}
+//たくさんのデータを配列にまとめる
+import java.util.Random;
+
+public class Main {
+    public static void main(String[] args) {
+        String [] lunch = {"スペシャルハンバーガー","4種類のチーズピッツァ",
+        "ロールとチキンサンド","生ハムサンド"};  //4つの要素（文字列）を収めた配列
+        
+        System.out.println(lunch[2]);   //2番の要素を取り出して表示
+    }
+}
