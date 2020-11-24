@@ -146,3 +146,14 @@ public class Main {
         System.out.println(doubleA);  //double型の値を表示
     }
 }
+//たくさんのデータを配列にまとめる
+import java.util.Random;
+
+public class Main {
+    public static void main(String[] args) {
+        String [] lunch = {"スペシャルハンバーガー","4種類のチーズピッツァ",
+        "ロールとチキンサンド","生ハムサンド"};  //4つの要素（文字列）を収めた配列
+        
+        System.out.println(lunch[2]);   //2番の要素を取り出して表示
+    }
+}
