@@ -115,3 +115,12 @@ public class Main {
         System.out.println(doubleA);  //変数douleAの値を表示
     }
 }
+//キャストの変換
+public class Main {
+    public static void main(String[] args){
+        double doubleA = 1234.5678;   //double型の変数doubleAに値を入れる
+        int intA = 12345;  //int型の変数intAに値を入れる
+        intA = (int)doubleA;   //doubleAの値をキャスト変換してintAに入れる
+        System.out.println(intA);  //変数intAの値を表示
+    }
+}
