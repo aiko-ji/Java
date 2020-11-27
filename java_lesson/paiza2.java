@@ -22,3 +22,16 @@ public class Main {
       }
   }
 }
+//くじ引きプログラムを作る
+import java.util.Random;
+public class Main {
+    public static void main(String[] args) {
+        Random rnd = new Random();  //ランダムな数を出す部分
+        int score = rnd.nextInt(100);  //100までのランダムな数
+        if (score >= 90) {  //90以上なら当たり
+            System.out.println("当たり！");
+        } else {
+            System.out.println("ハズレ");
+        }
+    }
+}
