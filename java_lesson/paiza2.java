@@ -35,3 +35,13 @@ public class Main {
         }
     }
 }
+//for（カウント変数の初期化; くり返す条件式; カウント変数の変化式) {
+    //くり返す処理
+}
+public class Main {
+  public static void main(String[] args) {
+      for(int i = o; i <= 9; i++) {  //変数ｉは0から9まで1を足していく
+      System.out.println("5 x " + i + " = " + (5 * i));
+      //変数iを含めたかけ算式。５x０〜５x９の10個のかけ算をする
+  }
+}
