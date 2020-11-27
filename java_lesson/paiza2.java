@@ -9,3 +9,16 @@ public class Main {
       }
   }
 }
+//そうでない時 else
+public class Main {
+  public static void main(String[] args) {
+      int score = 60;  //変数scoreに60を入れる
+      if (score >= 80) {
+          System.out.println("やったね！次もこの調子だ");
+      } else {
+          System.out.println("残念でした");
+          //if~でした"まで、もしも点数が80点以上なた「やったね！」の文字列が表示され、
+          //80点未満の時は、「残念でした」の文字列が表示される
+      }
+  }
+}
