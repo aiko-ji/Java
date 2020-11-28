@@ -73,3 +73,14 @@ public class Main {
       }
   }
 }
+// forのtotal文の配列
+public class Main {
+  public static void main(String[] args) {
+      int [] scorelist= {64, 100, 78, 80, 72};  //配列
+      int total = 0;  //0にリセット
+      for(int i:scorelist) {  //for文による繰り返し
+          total += i;
+      }
+      System.out.println(total);  //変数totalの値を表示
+  }
+}
