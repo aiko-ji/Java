@@ -61,3 +61,6 @@ public class Main {
        System.out.println("答え:"+answer);
     }
 }
+//for (配列の型 要素を入れる変数名: 配列) {
+  //繰り返す処理
+}
