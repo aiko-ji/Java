@@ -64,3 +64,12 @@ public class Main {
 //for (配列の型 要素を入れる変数名: 配列) {
   //繰り返す処理
 }
+//配列の全ての要素について繰り返す拡張for文
+public class Main {
+  public static void main(String[] args) {
+      int [] scorelist= {64, 100, 78, 80, 72};
+      for(int i:scorelist) {  //配列の全ての要素について表示する事を繰り返す
+      System.out.println(i);
+      }
+  }
+}
