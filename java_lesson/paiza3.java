@@ -9,3 +9,13 @@ public class Main {
       System.out.println("こんにちは");  //作成をした挨拶を表示するメソッド
   }
 }
+//単純なメソッド 引数がある時
+public class Main {
+  public static void main(String[] args) {
+      sayhello2("いろは");  //挨拶を表示するメソッドを呼び出し
+      sayhello2("オオカミ先生");
+  }
+  static void sayhello2(String name) { //作成した名前付きで挨拶を表示するメソッド
+  System.out.println("こんにちは、" + name + "さん");
+  }
+}
