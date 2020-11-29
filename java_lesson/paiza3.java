@@ -19,3 +19,19 @@ public class Main {
   System.out.println("こんにちは、" + name + "さん");
   }
 }
+//static 戻り値の型 メソッド名（） {
+  //メソッドで行う処理
+  //return 戻り値;
+//}
+import java.util.Random;
+public class Main {
+    public static void main(String[] args) {
+        int d = dice();  //メソッドを呼び出してサイコロの目を変数に入れる
+        System.out.println("サイコロは、"+d);  //結果を表示
+    }
+    static int dice() {
+        Random rnd = new Random();
+        int ans = rnd.nextInt(6);
+        return ans;  //static〜ans;まで、作成したサイコロの目を返すメソッド
+    }
+}
