@@ -35,3 +35,19 @@ public class Main {
         return ans;  //static〜ans;まで、作成したサイコロの目を返すメソッド
     }
 }
+//static 戻り値の型 メソッド名（引数１の型 引数１ 引数２の型 引数２,..）{
+  //メソッドで行う処理
+  //return 戻り値;
+//}
+//消費税計算のプログラム
+public class Main {
+  public static void main(String[] args) {
+      double ans = postTaxPrice(980);  //金額を渡して消費税計算の結果を変数に入れる
+      System.out.println(ans + "円");  //結果を表示
+  }
+  static double postTaxPrice(int price) {
+      double ans = price * 1.08;
+      return ans; 
+       //static~ans;まで、渡された金額で消費税を計算して返すメソッド
+  }
+}
