@@ -51,3 +51,20 @@ public class Main {
        //static~ans;まで、渡された金額で消費税を計算して返すメソッド
   }
 }
+//計算問題大量作成マシーンのプログラム
+import java.util.Random;
+public class Main {
+    public static void main(String[] args) {
+        for (int i =  0; i < 5; i++) {
+            makeQuestion();  //計算問題を表示するメソッドを繰り返し呼び出す
+        }
+    }
+     static void makeQuestion() {
+        Random rnd = new Random();
+        int a = rnd.nextInt(100);
+        int b = rnd.nextInt(100);
+        String quedtion = a + "x" + b + "=?";
+        System.out.println(quedtion);
+        //計算問題を表示するメソッド
+    }
+}
