@@ -81,3 +81,16 @@ public class Main {
         System.out.println(kuji[id]);
     }
 }
+//現在時刻を表示するプログラム
+import java.time.ZonedDateTime;
+import java.time.ZoneId;
+
+public class Main {
+    public static void main(String[] args) {
+        ZonedDateTime now = ZonedDateTime.now(ZoneId.
+    of("Asia/Tokyo"));  //現在の時刻を変数nowに入れる
+        String nowTime = now.getHour() + ":" + now.
+    getMinute() + ":" + now.getSecond();  //時分秒を取得し、つなげた文字列にする
+        System.out.println(nowTime);
+    }
+}
