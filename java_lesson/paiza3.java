@@ -113,3 +113,16 @@ public class Main {   //最初に実行するクラス
 }
 //public~hello();までメソッドを実行するプログラム
 
+public class Main {
+  public static void main(String[] args) {
+      MyClass myClass = new MyClass();
+      MyClass iroha = new MyClass();
+      MyClass sensei = new MyClass();
+        //上記３つは各インスタンスの作成
+      
+      myClass.hello();
+      iroha.hello();
+      sensei.hello();
+        //上記各インスタンスのhelloメソッドにアクセス
+  }
+}
