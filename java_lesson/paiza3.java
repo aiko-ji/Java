@@ -94,3 +94,53 @@ public class Main {
         System.out.println(nowTime);
     }
 }
+
+public class Main {
+  public static void main(String[] args) {
+      MyClass myclass = new MyClass();
+      // MyClass(クラス名)  myclass(変数名)  new MyClass();(インスタンスを作る命令)
+      
+      System.out.println("XXXXXXXX");
+  }
+}
+//Main.javaでインスタンスのメソッドを呼び出す
+public class Main {   //最初に実行するクラス
+  public static void main(String[] args) {
+      MyClass myclass = new MyClass();  //MyClassインスタンスの作成
+     
+      myclass.hello();  //MyClassインスタンスのhelloメソッドにアクセス
+  }
+}
+//public~hello();までメソッドを実行するプログラム
+
+public class Main {
+  public static void main(String[] args) {
+      MyClass myClass = new MyClass();
+      MyClass iroha = new MyClass();
+      MyClass sensei = new MyClass();
+        //上記３つは各インスタンスの作成
+      
+      myClass.hello();
+      iroha.hello();
+      sensei.hello();
+        //上記各インスタンスのhelloメソッドにアクセス
+  }
+}
+//自分の名前を言って挨拶するオブジェクトに修正
+public class Main {
+  public static void main(String[] args) {
+      MyClass myClass = new MyClass();
+      MyClass iroha = new MyClass();
+      MyClass sensei = new MyClass();
+        //上記３つは各インスタンスの作成
+        
+      iroha.myName = "いろは";
+      sensei.myName = "センセイ";  
+        //上記２つは各インスタンスのmyNamaフィールドに値を入れる
+        
+      myClass.hello();
+      iroha.hello();
+      sensei.hello();
+        //上記各インスタンスのhelloメソッドにアクセス
+  }
+}
