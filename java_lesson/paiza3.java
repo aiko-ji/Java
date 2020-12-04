@@ -94,3 +94,13 @@ public class Main {
         System.out.println(nowTime);
     }
 }
+
+public class Main {
+  public static void main(String[] args) {
+      MyClass myclass = new MyClass();
+      // MyClass(クラス名)  myclass(変数名)  new MyClass();(インスタンスを作る命令)
+      
+      System.out.println("XXXXXXXX");
+  }
+}
+
