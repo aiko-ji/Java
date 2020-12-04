@@ -103,4 +103,13 @@ public class Main {
       System.out.println("XXXXXXXX");
   }
 }
+//Main.javaでインスタンスのメソッドを呼び出す
+public class Main {   //最初に実行するクラス
+  public static void main(String[] args) {
+      MyClass myclass = new MyClass();  //MyClassインスタンスの作成
+     
+      myclass.hello();  //MyClassインスタンスのhelloメソッドにアクセス
+  }
+}
+//public~hello();までメソッドを実行するプログラム
 
