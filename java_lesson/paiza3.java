@@ -126,3 +126,21 @@ public class Main {
         //上記各インスタンスのhelloメソッドにアクセス
   }
 }
+//自分の名前を言って挨拶するオブジェクトに修正
+public class Main {
+  public static void main(String[] args) {
+      MyClass myClass = new MyClass();
+      MyClass iroha = new MyClass();
+      MyClass sensei = new MyClass();
+        //上記３つは各インスタンスの作成
+        
+      iroha.myName = "いろは";
+      sensei.myName = "センセイ";  
+        //上記２つは各インスタンスのmyNamaフィールドに値を入れる
+        
+      myClass.hello();
+      iroha.hello();
+      sensei.hello();
+        //上記各インスタンスのhelloメソッドにアクセス
+  }
+}
