@@ -144,3 +144,11 @@ public class Main {
         //上記各インスタンスのhelloメソッドにアクセス
   }
 }
+//計算問題を１つだけ作るクラス
+public static void main(String[] args) {
+  CalcQuiz q = new CalcQuiz();  //クイズを出すインスタンス
+  
+  System.out.println(q.getQuestion());  //問題を出す
+  System.out.println(q.getAnswer());  //答えを言う
+}
+}
